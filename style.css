@@ -1,0 +1,140 @@
+\*
+A WriteFreely theme written by Crìstean MacMhìcheil
+
+It is licensed under The Unlicence meaning anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700');
+
+body{
+    background-color: #0D1117;
+    color: #f0f0f0;
+}
+
+#blog-title a{
+    font-family: "Lemonada";
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+#post #blog-title a, #subpage #blog-title a {
+    font-size: 1em;
+}
+
+nav#manage ul a{
+    color: #56c1bb;
+}
+
+#post nav a:not(.home), header nav a{
+    color: #56c1bb;
+}
+
+#post nav a:not(.home):hover, header nav a:hover{
+    color: #347470;
+}
+
+body h1 a, body header h2 a {
+	 color: #56c1bb;
+	}
+	
+body h1 a:hover, body header h2 a:hover {
+	 color: #347470;
+	}
+
+header p.description{
+    color: #f0f0f0;
+}
+
+a{
+    color: #56c1bb;
+}
+
+a:hover{
+    color: #347470;
+}
+
+.post-title a {
+	 color: #56c1bb;
+	}
+	
+.post-title a:hover {
+	 color: #347470;
+	}
+	
+#collection .post-title a {
+   color: #56c1bb;
+}
+
+#collection .post-title a:hover {
+   color: #347470;
+}
+
+#collection article p, #subpage article p{
+    font-size: 18px;
+}
+
+body#collection #wrapper h1, body#subpage #wrapper h1, body#post article h1#title, body#post article h1{
+    font-size: 30px;
+    color: #f0f0f0;
+    font-family: "Lemonada";
+}
+
+body#collection #wrapper h2, body#subpage #wrapper h2, body#post article h2#title, body#post article h2{
+    font-size: 28px;
+    color: #f0f0f0;
+    font-family: "Lemonada";
+}
+
+body#collection #wrapper h3, body#subpage #wrapper h3, body#post article h3#title, body#post article h3{
+    font-size: 26px;
+    color: #f0f0f0;
+    font-family: "Lemonada";
+}
+
+body#collection #wrapper h4, body#subpage #wrapper h4, body#post article h4#title, body#post article h4{
+    font-size: 24px;
+    color: #f0f0f0;
+    font-family: "Lemonada";
+}
+
+body#collection #wrapper h5, body#subpage #wrapper h5, body#post article h5#title, body#post article h5{
+    font-size: 22px;
+    color: #f0f0f0;
+    font-family: "Lemonada";
+}
+
+body#collection #wrapper h6, body#subpage #wrapper h6, body#post article h6#title, body#post article h6{
+    font-size: 20px;
+    color: #f0f0f0;
+    font-family: "Lemonada";
+}
+
+.avatar{
+    margin: auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+a.btn.cta, a.btn.gentlecta, a.btn.submit, a.btn[type=submit], button.cta, button.gentlecta, button.submit, button[type=submit], input.cta, input.gentlecta, input.submit, input[type=submit]{
+    background: #56c1bb;
+    border: 1px solid #56c1bb;
+}
+
+a.btn.cta:hover, a.btn.gentlecta:hover, a.btn.submit:hover, a.btn[type=submit]:hover, button.cta:hover, button.gentlecta:hover, button.submit:hover, button[type=submit]:hover, input.cta:hover, input.gentlecta:hover, input.submit:hover, input[type=submit]:hover, select.inputform.cta:hover, select.inputform.gentlecta:hover, select.inputform.submit:hover, select.inputform[type=submit]:hover, textarea.inputform.cta:hover, textarea.inputform.gentlecta:hover, textarea.inputform.submit:hover, textarea.inputform[type=submit]:hover{
+    background: #347470;
+    border: 1px solid #347470;
+}
+
+body footer nav{
+    color: #f0f0f0;
+}
+
+body footer a.home:link, body footer a.home:visited{
+    color: #56c1bb;
+}
+
+body footer nav a.home:hover{
+    color: #347470;
+}
