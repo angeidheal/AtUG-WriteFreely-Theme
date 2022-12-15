@@ -22,23 +22,23 @@ body{
 }
 
 nav#manage ul a{
-    color: #56c1bb;
+    color: #008080;
 }
 
 #post nav a:not(.home), header nav a{
-    color: #56c1bb;
+    color: #008080;
 }
 
 #post nav a:not(.home):hover, header nav a:hover{
-    color: #347470;
+    color: #56C1BB;
 }
 
 body h1 a, body header h2 a {
-	 color: #56c1bb;
+	 color: #008080;
 	}
 	
 body h1 a:hover, body header h2 a:hover {
-	 color: #347470;
+	 color: #56C1BB;
 	}
 
 header p.description{
@@ -46,27 +46,35 @@ header p.description{
 }
 
 a{
-    color: #56c1bb;
+    color: #008080;
 }
 
 a:hover{
-    color: #347470;
+    color: #56C1BB;
 }
 
 .post-title a {
-	 color: #56c1bb;
+	 color: #008080;
 	}
 	
 .post-title a:hover {
-	 color: #347470;
+	 color: #56C1BB;
+	}
+	
+.post-title a:visited{
+	 color: #008080;
 	}
 	
 #collection .post-title a {
-   color: #56c1bb;
+   color: #008080;
 }
 
 #collection .post-title a:hover {
-   color: #347470;
+   color: #56C1BB;
+}
+
+#post article .authors, #post article time.dt-published, #subpage article .authors, #subpage article time.dt-published{
+    
 }
 
 #collection article p, #subpage article p{
@@ -109,22 +117,50 @@ body#collection #wrapper h6, body#subpage #wrapper h6, body#post article h6#titl
     font-family: "Lemonada";
 }
 
-.avatar{
+.avatar img{
+    margin: 0px auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 8px solid #f0f0f0;
+}
+
+body #post audio, body #post img, body #post video, body#collection audio, body#collection img, body#collection video, body#post audio, body#post img, body#post video, body#subpage audio, body#subpage img, body#subpage video{
     margin: auto;
     display: block;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+}
+
+body #post pre code, body#collection pre code, body#post pre code, body#subpage pre code{
+    color: #0D1117;
+}
+
+body#collection a.read-more {
+    color: #0D1117;
+}
+
+body#collection a.read-more:before {
+    content: 'Leugh an-còrr...';
+    color: #008080;
+}
+
+body#collection a.read-more, body#subpage a.read-more{
+    color: #0D1117;
+}
+
+body#collection a.read-more:before, body#subpage a.read-more:before{
+    content: 'Leugh an-còrr...';
+    color: #008080;
 }
 
 a.btn.cta, a.btn.gentlecta, a.btn.submit, a.btn[type=submit], button.cta, button.gentlecta, button.submit, button[type=submit], input.cta, input.gentlecta, input.submit, input[type=submit]{
-    background: #56c1bb;
-    border: 1px solid #56c1bb;
+    background: #008080;
+    border: 1px solid #008080;
 }
 
 a.btn.cta:hover, a.btn.gentlecta:hover, a.btn.submit:hover, a.btn[type=submit]:hover, button.cta:hover, button.gentlecta:hover, button.submit:hover, button[type=submit]:hover, input.cta:hover, input.gentlecta:hover, input.submit:hover, input[type=submit]:hover, select.inputform.cta:hover, select.inputform.gentlecta:hover, select.inputform.submit:hover, select.inputform[type=submit]:hover, textarea.inputform.cta:hover, textarea.inputform.gentlecta:hover, textarea.inputform.submit:hover, textarea.inputform[type=submit]:hover{
-    background: #347470;
-    border: 1px solid #347470;
+    background: #56C1BB;
+    border: 1px solid #56C1BB;
 }
 
 body footer nav{
@@ -132,9 +168,9 @@ body footer nav{
 }
 
 body footer a.home:link, body footer a.home:visited{
-    color: #56c1bb;
+    color: #008080;
 }
 
 body footer nav a.home:hover{
-    color: #347470;
+    color: #56C1BB;
 }
